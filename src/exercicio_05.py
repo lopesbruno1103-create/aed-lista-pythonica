@@ -1,12 +1,2 @@
-def famous_quote(author: str, quote: str) -> str:
-    """
-    Retorna uma frase com autor e citação.
-
-    Args:
-        author (str): nome do autor
-        quote (str): citação
-
-    Returns:
-        str: "<author> once said, '<quote>'"
-    """
-    pass
+def citacao(autor,frase):
+    return f'{autor} disse certa vez, "{frase}"'
